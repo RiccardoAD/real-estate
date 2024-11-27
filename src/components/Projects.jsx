@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <div className=' container mx-auto py-4 pt-20 ox-6 md:px-20 lg:my-20 w-full overflow-hidden'>
-      <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center' >Projects <span
+      <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'id='Projects' >Projects <span
        className='underline underline-offset-4 decoration-1 under font-light'> Completed</span></h1>
       <p className='text-gray-500 max-w-80 text-center mb-8 mx-auto '> Crafting Spaces , Building- Expolore Our Portfolio </p>
    
@@ -58,7 +58,7 @@ const Projects = () => {
                  <div className='inline-block bg-white py-2 px-4 shadow-md'>
                   <h2 className='text-lg font-semibold text-gray-800'>{project.title}</h2>
                 <p className='text-sm text-gray-600'>
-                    {project.price} <span></span> {project.location}
+                    {project.price} <span className='px-1'></span> {project.location}
                 </p>
                  </div>
                 </div>
